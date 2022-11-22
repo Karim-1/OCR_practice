@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ocr-practice"
+version = "0.1.0"
+description = ""
+authors = ["Karim-1 <54839428+Karim-1@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ocr_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytesseract = "^0.3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
